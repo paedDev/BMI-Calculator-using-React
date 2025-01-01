@@ -1,12 +1,13 @@
-import React, { useState } from 'react'
-import BmiComponent from "./BmiComponent/BmiComponent.jsx"
 
+
+import Bmi from './Bmi/Bmi.jsx'
 function App() {
   
 
   return (
     <>
-      <BmiComponent />
+
+      <Bmi/>
     </>
   )
 }
